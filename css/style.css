@@ -41,6 +41,10 @@
   border-radius: 30px;
 }
 
+.hidden {
+  display: none;
+}
+
 /* flex */
 
 .row {
@@ -75,6 +79,15 @@
 
 #nav-bar .col {
   width: auto;
+}
+
+#nav-bar ul {
+  list-style: none;
+}
+
+#nav-bar li {
+  float: left;
+  margin-left: 0.5rem;
 }
 
 /* ** main */
@@ -143,6 +156,40 @@
 
 #footer {
   background-color: var(--black);
+}
+
+/* ** responsive */
+
+/*** tablet >= 576px */
+
+@media screen and (min-width: 576px) {
+  /*** intro  */
+  #intro .col:first-child {
+    width: calc(100% / 3 * 2);
+  }
+
+  #intro .col {
+    width: calc(100% / 3);
+  }
+}
+
+/*** desktop >= 992px */
+
+@media screen and (min-width: 992px) {
+  /*** general  */
+
+  .hidden {
+    display: contents;
+  }
+
+  .menu {
+    display: none;
+  }
+}
+
+/*** big desktop >= 1200px */
+
+@media screen and (min-width: 1200px) {
 }
 
 /* ** debug */
