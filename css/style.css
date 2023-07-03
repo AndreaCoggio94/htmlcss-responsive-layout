@@ -106,7 +106,13 @@
   background-color: var(--light-blue);
 }
 
+#intro .card-left,
+.card-right {
+  padding: 1rem;
+}
+
 #intro .main.card {
+  display: flex;
 }
 
 #intro .col {
@@ -184,6 +190,13 @@
 
   .menu {
     display: none;
+  }
+
+  /*** intro  */
+
+  #intro .card-left,
+  .card-right {
+    width: calc(100% / 2);
   }
 }
 
