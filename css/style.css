@@ -1,4 +1,4 @@
-/* root */
+/*** root */
 :root {
   /* colors palette */
   --white: #ffffff;
@@ -24,9 +24,58 @@
   --yellow: #e7e737;
 }
 
-/* reset */
+/*** reset */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+/*** general */
+
+.container {
+  padding: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.col {
+  padding: 1rem;
+}
+
+.card {
+  border-radius: 30px;
+}
+
+/*** header */
+
+/* nav-bar */
+
+#nav-bar {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 80px;
+  background-color: var(--lighter-blue);
+  color: var(--white);
+}
+
+#nav-bar .row {
+  justify-content: space-between;
+}
+
+/* ** main */
+
+/* intro */
+
+#intro {
+  margin-top: 80px;
+}
+
+#intro .card {
+  background-color: var(--light-blue);
 }
