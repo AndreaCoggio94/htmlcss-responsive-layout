@@ -37,17 +37,22 @@
   padding: 1rem;
 }
 
+.card {
+  border-radius: 30px;
+}
+
+/* flex */
+
 .row {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
+
+/* width */
 
 .col {
   padding: 1rem;
-}
-
-.card {
-  border-radius: 30px;
+  width: 100%;
 }
 
 /*** header */
@@ -68,6 +73,10 @@
   justify-content: space-between;
 }
 
+#nav-bar .col {
+  width: auto;
+}
+
 /* ** main */
 
 /* intro */
@@ -79,3 +88,87 @@
 #intro .card {
   background-color: var(--light-blue);
 }
+
+#intro .col {
+  width: 100%;
+}
+
+/* plan */
+
+#plan {
+  background-color: var(--aubergine);
+  color: var(--white);
+}
+
+#plan .col {
+  margin: 0.5rem 0;
+}
+
+#plan .card {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+/* ** debug */
+
+/* height */
+
+.debug .smaller {
+  height: 50px;
+}
+
+.debug .small {
+  height: 80px;
+}
+
+.debug .tall {
+  height: 300px;
+}
+
+.debug .taller {
+  height: 500px;
+}
+
+/* border */
+
+.debug .bordered {
+  border: 2px dashed var(--black);
+}
+
+.debug .bordered-light {
+  border: 2px dashed var(--light-blue);
+}
+
+/* background */
+
+.debug .bg-white {
+  background-color: var(--white);
+}
+.debug .bg-black {
+  background-color: var(--black);
+}
+.debug .bg-red {
+  background-color: var(--red);
+}
+.debug .bg-green {
+  background-color: var(--green);
+}
+.debug .bg-gray {
+  background-color: var(--gray);
+}
+.debug .bg-purple {
+  background-color: var(--purple);
+}
+.debug .bg-pink {
+  background-color: var(--pink);
+}
+.debug .bg-brown {
+  background-color: var(--brown);
+}
+
+/*** Breakpoints
+mobile < 576px
+tablet: >= 576px
+desktop: >= 992px
+large desktop: >= 1200px
+*/
