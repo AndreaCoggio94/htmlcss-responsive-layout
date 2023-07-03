@@ -35,6 +35,7 @@
 
 .container {
   padding: 1rem;
+  margin: auto;
 }
 
 .card {
@@ -113,6 +114,7 @@
 
 #intro .main.card {
   display: flex;
+  flex-direction: column;
 }
 
 #intro .col {
@@ -184,6 +186,10 @@
 @media screen and (min-width: 992px) {
   /*** general  */
 
+  .container {
+    max-width: 1000px;
+  }
+
   .hidden {
     display: contents;
   }
@@ -194,9 +200,28 @@
 
   /*** intro  */
 
+  #intro .main.card {
+    flex-direction: row;
+  }
+
   #intro .card-left,
   .card-right {
     width: calc(100% / 2);
+  }
+
+  /*** plan  */
+
+  #plan .row {
+    gap: 0.5rem;
+    align-items: flex-end;
+  }
+
+  #plan .col {
+    width: calc(100% / 2 - 1rem);
+    margin: 0;
+  }
+
+  #plan .col:last-child {
   }
 }
 
