@@ -140,6 +140,10 @@
 
 /*** testimonials  */
 
+#testimonials .row {
+  margin: auto -1rem;
+}
+
 #testimonials .col {
   margin: 0.5rem 0;
 }
@@ -187,7 +191,7 @@
 /*** tablet >= 576px */
 
 @media screen and (min-width: 576px) {
-  /*** intro  */
+  /* intro  */
   #intro .col:first-child {
     width: calc(100% / 3 * 2);
   }
@@ -196,17 +200,23 @@
     width: calc(100% / 3);
   }
 
-  /*** testimonials  */
+  /* testimonials  */
 
   #testimonials .card-text {
     width: calc(100% - 300px);
+  }
+
+  /* benefit */
+
+  #benefit .col {
+    width: calc(100% / 2);
   }
 }
 
 /*** desktop >= 992px */
 
 @media screen and (min-width: 992px) {
-  /*** general  */
+  /* general  */
 
   .container {
     max-width: 1000px;
@@ -220,7 +230,7 @@
     display: none;
   }
 
-  /*** intro  */
+  /* intro  */
 
   #intro .main.card {
     flex-direction: row;
@@ -231,7 +241,7 @@
     width: calc(100% / 2);
   }
 
-  /*** plan  */
+  /* plan  */
 
   #plan .row {
     gap: 0.5rem;
@@ -244,6 +254,12 @@
   }
 
   #plan .col:last-child {
+  }
+
+  /* benefit */
+
+  #benefit .col {
+    width: calc(100% / 3);
   }
 }
 
