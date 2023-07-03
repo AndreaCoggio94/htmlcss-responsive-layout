@@ -211,6 +211,16 @@
   #benefit .col {
     width: calc(100% / 2);
   }
+
+  /* about us */
+
+  #about-us .col:first-child {
+    width: calc(100% / 3 * 2);
+  }
+
+  #about-us .col:last-child {
+    width: calc(100% / 3);
+  }
 }
 
 /*** desktop >= 992px */
