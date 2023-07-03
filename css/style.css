@@ -38,6 +38,11 @@
   margin: auto;
 }
 
+.small-container {
+  padding: 1rem;
+  margin: auto;
+}
+
 .card {
   border-radius: 30px;
   padding: 1rem;
@@ -184,6 +189,8 @@
 
 #footer {
   background-color: var(--black);
+  color: var(--white);
+  text-align: center;
 }
 
 /* ** responsive */
@@ -191,6 +198,12 @@
 /*** tablet >= 576px */
 
 @media screen and (min-width: 576px) {
+  /* general */
+
+  .small-container {
+    max-width: 600px;
+  }
+
   /* intro  */
   #intro .col:first-child {
     width: calc(100% / 3 * 2);
@@ -220,6 +233,12 @@
 
   #about-us .col:last-child {
     width: calc(100% / 3);
+  }
+
+  /* get started */
+
+  #get-started .container {
+    max-width: 800px;
   }
 }
 
