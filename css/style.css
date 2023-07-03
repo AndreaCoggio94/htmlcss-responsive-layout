@@ -33,20 +33,47 @@
 
 /*** general */
 
+/* containers */
+
 .container {
   padding: 1rem;
   margin: auto;
 }
 
 .small-container {
-  padding: 1rem;
+  padding: 0.2rem;
   margin: auto;
 }
+
+/* font */
+
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* buttons */
+
+.btn {
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  font-size: 1rem;
+}
+
+/* img */
+
+img {
+  width: 100%;
+}
+
+/* cards */
 
 .card {
   border-radius: 30px;
   padding: 1rem;
 }
+
+/* hidden */
 
 .hidden {
   display: none;
@@ -75,17 +102,28 @@
   left: 0;
   right: 0;
   top: 0;
-  height: 80px;
+  height: 100px;
   background-color: var(--lighter-blue);
   color: var(--white);
 }
 
+#nav-bar .container {
+  padding: 0 1rem;
+}
+
 #nav-bar .row {
   justify-content: space-between;
+  align-items: center;
+  height: 100px;
 }
 
 #nav-bar .col {
   width: auto;
+  /* line-height: 50px; */
+}
+
+#nav-bar .col:last-child {
+  line-height: 50px;
 }
 
 #nav-bar ul {
@@ -93,8 +131,13 @@
 }
 
 #nav-bar li {
+  font-size: 1rem;
   float: left;
-  margin-left: 0.5rem;
+  margin-left: 0.8rem;
+}
+
+#nav-bar i {
+  font-size: 2rem;
 }
 
 /* ** main */
@@ -102,7 +145,7 @@
 /*** intro */
 
 #intro {
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 #intro .row {
