@@ -40,6 +40,7 @@
 
 .card {
   border-radius: 30px;
+  padding: 1rem;
 }
 
 .hidden {
@@ -143,6 +144,21 @@
   margin: 0.5rem 0;
 }
 
+#testimonials .card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#testimonials .card-text {
+  width: 100%;
+}
+
+#testimonials .card-img {
+  width: 300px;
+  aspect-ratio: 1 / 1;
+  margin: auto;
+}
 /*** benefit  */
 
 #benefit {
@@ -178,6 +194,12 @@
 
   #intro .col {
     width: calc(100% / 3);
+  }
+
+  /*** testimonials  */
+
+  #testimonials .card-text {
+    width: calc(100% - 300px);
   }
 }
 
