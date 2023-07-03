@@ -85,8 +85,15 @@
   margin-top: 80px;
 }
 
+#intro .row {
+  margin: auto -1rem;
+}
+
 #intro .card {
   background-color: var(--light-blue);
+}
+
+#intro .main.card {
 }
 
 #intro .col {
@@ -120,6 +127,14 @@
 #benefit {
   background-color: var(--lighter-blue);
   color: var(--white);
+}
+
+/*** about us  */
+
+/*** get started  */
+
+#get-started {
+  background-color: var(--lighter-blue);
 }
 
 /* ** debug */
