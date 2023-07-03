@@ -115,6 +115,13 @@
   margin: 0.5rem 0;
 }
 
+/*** benefit  */
+
+#benefit {
+  background-color: var(--lighter-blue);
+  color: var(--white);
+}
+
 /* ** debug */
 
 /* height */
