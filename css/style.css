@@ -79,7 +79,7 @@
 
 /* ** main */
 
-/* intro */
+/*** intro */
 
 #intro {
   margin-top: 80px;
@@ -93,7 +93,7 @@
   width: 100%;
 }
 
-/* plan */
+/*** plan */
 
 #plan {
   background-color: var(--aubergine);
@@ -107,6 +107,12 @@
 #plan .card {
   background-color: var(--white);
   color: var(--black);
+}
+
+/*** testimonials  */
+
+#testimonials .col {
+  margin: 0.5rem 0;
 }
 
 /* ** debug */
