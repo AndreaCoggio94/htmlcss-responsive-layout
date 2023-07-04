@@ -21,7 +21,7 @@
   --darker-red: #c80606;
   --lighter-blue: #288ff6;
   --dark-blue: #1a1a8a;
-  --yellow: #e7e737;
+  --yellow: #eeba72;
   --main-section-bg-secondary: #9792e4;
 }
 
@@ -38,11 +38,6 @@
 
 .container {
   padding: 0 1rem;
-  margin: auto;
-}
-
-.small-container {
-  padding: 0.2rem;
   margin: auto;
 }
 
@@ -73,6 +68,10 @@ h3 {
 
 p {
   margin-bottom: 1rem;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 /* font */
@@ -374,6 +373,42 @@ img {
 
 /*** get started  */
 
+#get-started .container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#get-started {
+  text-align: center;
+}
+
+#get-started h3 {
+  font-weight: 100;
+}
+
+#get-started h2 {
+  font-weight: 700;
+}
+
+#get-started h1 {
+  color: var(--yellow);
+}
+
+#get-started button {
+  margin-bottom: 1rem;
+}
+
+#get-started i {
+  font-size: 0.2rem;
+  padding: 0 0.5rem;
+}
+
+#get-started address {
+  font-size: 0.85rem;
+  font-weight: 300;
+  font-style: normal;
+}
+
 /* ** footer  */
 
 /*** footer section  */
@@ -384,16 +419,16 @@ img {
   text-align: center;
 }
 
+#footer .row {
+  height: 300px;
+}
+
 /* ** responsive */
 
 /*** tablet >= 576px */
 
 @media screen and (min-width: 576px) {
   /* general */
-
-  .small-container {
-    max-width: 600px;
-  }
 
   /* intro  */
   #intro .col:first-child {
