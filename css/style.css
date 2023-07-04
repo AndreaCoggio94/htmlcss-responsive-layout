@@ -305,14 +305,24 @@ img {
   position: absolute;
   bottom: 40px;
 }
+
 /*** benefit  */
+
+#benefit .container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#benefit .container > h2 {
+  text-align: center;
+}
 
 #benefit .card > h1 {
   font-size: 4rem;
+  color: var(--main-section-bg-secondary);
 }
 
-#benefit .card > h1,
-h2 {
+#benefit .card > h2 {
   color: var(--main-section-bg-secondary);
 }
 
