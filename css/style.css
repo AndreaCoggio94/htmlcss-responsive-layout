@@ -307,6 +307,19 @@ img {
 }
 /*** benefit  */
 
+#benefit .card > h1 {
+  font-size: 4rem;
+}
+
+#benefit .card > h1,
+h2 {
+  color: var(--main-section-bg-secondary);
+}
+
+#benefit .card > button {
+  color: var(--white);
+}
+
 /*** about us  */
 
 /*** get started  */
