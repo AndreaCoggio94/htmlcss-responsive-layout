@@ -419,8 +419,9 @@ img {
   text-align: center;
 }
 
-#footer .row {
-  height: 300px;
+#footer .container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 /* ** responsive */
@@ -475,6 +476,12 @@ img {
   /* get started */
 
   #get-started .container {
+    max-width: 800px;
+  }
+
+  /* footer */
+
+  #footer .container {
     max-width: 800px;
   }
 }
