@@ -424,6 +424,10 @@ img {
   padding-bottom: 2rem;
 }
 
+#footer a {
+  color: var(--main-section-bg-secondary);
+}
+
 /* ** responsive */
 
 /*** tablet >= 576px */
